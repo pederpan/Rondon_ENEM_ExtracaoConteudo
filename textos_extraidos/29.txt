@@ -1,0 +1,24 @@
+QUESTÃO 29
+
+As operações morfológicas são um conjunto de operações que processam imagens com base em formas. As operações morfológicas aplicam um elemento estruturador B a uma imagem A de entrada e geram uma imagem de saída.
+
+Em relação às operações morfológicas de Erosão e Dilatação, avalie as afirmações a seguir.
+
+I. Dilatação: À medida que o *kernel* B é aplicado sobre a imagem, calculamos o valor máximo de *pixel* sobreposto por B e substituímos o *pixel* da imagem, na posição do ponto de ancoragem, por esse valor máximo; exemplo:
+**[FIGURA: Diagrama mostrando a aplicação da operação de Dilatação. À esquerda, uma letra "j" em estilo cursivo e fina. Uma seta horizontal aponta para a direita, com o texto "Dilatação" centralizado acima dela. À direita, a mesma letra "j" em estilo cursivo, mas visivelmente mais espessa e expandida, indicando o resultado da operação.]**
+
+II. Dilatação: À medida que o *kernel* B é aplicado sobre a imagem, calculamos o valor mínimo de *pixel* sobreposto por B e substituímos o *pixel* da imagem, na posição do ponto de ancoragem, por esse valor máximo; exemplo:
+**[FIGURA: Diagrama mostrando a aplicação da operação de Dilatação. À esquerda, uma letra "j" em estilo cursivo e fina. Uma seta horizontal aponta para a direita, com o texto "Dilatação" centralizado acima dela. À direita, a mesma letra "j" em estilo cursivo, mas visivelmente mais espessa e expandida, indicando o resultado da operação.]**
+
+III. Erosão: À medida que o *kernel* B é aplicado sobre a imagem, calculamos o valor máximo de *pixel* sobreposto por B e substituímos o *pixel* da imagem, na posição do ponto de ancoragem, por esse valor máximo; exemplo:
+**[FIGURA: Diagrama mostrando a aplicação da operação de Erosão. À esquerda, uma letra "j" em estilo cursivo e de espessura normal. Uma seta horizontal aponta para a direita, com o texto "Erosão" centralizado acima dela. À direita, a mesma letra "j" em estilo cursivo, mas visivelmente mais fina e com partes mais estreitas removidas, indicando o resultado da operação.]**
+
+IV. Erosão: À medida que o *kernel* B é aplicado sobre a imagem, calculamos o valor mínimo de *pixel* sobreposto por B e substituímos o *pixel* da imagem, na posição do ponto de ancoragem, por esse valor máximo; exemplo:
+**[FIGURA: Diagrama mostrando a aplicação da operação de Erosão. À esquerda, uma letra "j" em estilo cursivo e de espessura normal. Uma seta horizontal aponta para a direita, com o texto "Erosão" centralizado acima dela. À direita, a mesma letra "j" em estilo cursivo, mas visivelmente mais fina e com partes mais estreitas removidas, indicando o resultado da operação.]**
+
+É correto o que se afirma em
+A I e III, apenas.
+B I e IV, apenas.
+C II e III, apenas.
+D II e IV, apenas.
+E I, II, III e IV.
